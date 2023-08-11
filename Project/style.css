@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(210, 210, 210);
+}
+
+a {
+    position: relative;
+    width: 300px;
+}
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 90px;
+    /* width: 280px; */
+    height: 100%;
+    background-color: #fff;
+    padding: 10px 10px;
+    overflow: hidden;
+    transition: width 0.4s;
+}
+
+nav:hover {
+    width: 280px;
+    padding: 10px 10px;
+}
+
+nav .logo-item {
+    margin-bottom: 30px;
+}
+
+nav .logo-item a {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+nav .logo-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav .logo-item span {
+    margin-left: 20px;
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.nav-item a {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+
+.nav-item a:hover {
+    background-color: #4070f4;
+}
+
+.nav-item a:hover i,
+.nav-item a:hover span {
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0 15px;
+    margin: 10px 0;
+}
+
+.nav-item a i {
+    font-size: 1.5em;
+    color: #707070;
+}
+
+.nav-item a span {
+    margin-left: 30px;
+    color: #707070;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+
+.sidebar_profile {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+}
+
+.sidebar_profile .nav_image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.sidebar_profile .data_text {
+    margin-left: 20px;
+}
+
+.sidebar_profile .name {
+    font-size: 18px;
+    color: #333;
+
+}
+
+.sidebar_profile .email {
+    font-size: 15px;
+    color: #333;
+}
+
+
+.dd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow: auto;
+}
+
+.dd::-webkit-scrollbar {
+    display: none;
+}
